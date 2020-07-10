@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.mainContainer {
+  margin: 5px 20px;
+}
+
+.container {
+  padding: 20px;
+  margin: 0px;
+}
+
+table {
+  border-spacing: 0 0;
+  border-collapse: collapse;
+}
+
+.header,
+.status,
+.data,
+.typeIcon,
+.assignee,
+.priority {
+  border: 1px solid grey;
+  margin: 0;
+  padding: 0;
+}
+
+.typeIcon {
+  padding: 20px;
+  padding-top: 25px;
+}
+
+.typeIcon img {
+  margin: 0px;
+}
+
+.assignee {
+  padding: 0 10px;
+}
+
+.header,
+.status,
+.data {
+  padding: 5px 10px;
+}
+
+.priority table {
+  margin: 5px auto;
+}
+
+.priority img {
+  margin: 0 2px;
+}
+
+.data td {
+  border: 1px solid grey;
+  width: 9px;
+  height: 20px;
+  padding: 2px 7px;
+}
+
+.data table {
+  border-collapse: collapse;
+  margin: 5px auto;
+}
